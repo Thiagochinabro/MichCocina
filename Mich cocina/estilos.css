@@ -1,0 +1,177 @@
+body{
+    background-image: url('imagenes1/logomichcocinarecorte.PNG');
+    font-family: 'Mulish', sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+*{margin:0;padding:0;}
+
+/*-------------------------------------------CABECERA------------------------------------------------------------------------------*/
+
+.cabecera {
+    height:100vh;
+    background: url('imagenes1/fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}   
+
+.navegador{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4848487b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.titulo{
+    color: #E0E2DB;
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+    margin-top: 20%;
+    margin-left: 12%;
+    text-shadow: 3px 3px 4px #313336;
+}
+
+.botonenlace  {
+    font-size: x-large;
+    color: #E0E2DB;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.botonenlace :hover{
+    text-decoration: overline;
+    font-size: xx-large;
+    background-color: #e0e2db6a;
+}
+
+.enlacemenu{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+/*-----------------------------------------------CUERPO----------------------------------------------------------------------------------*/
+/*.seccionamarillo{
+    margin: 35px;
+    background-color: #889696;
+    display: flex;
+    border-radius: 2px;
+}
+
+.boximagenes{
+    display: inline-flex; 
+    margin: 50px;
+    
+}
+
+figure{
+    color: black;
+}
+
+aside {
+    width: auto;
+    margin-right: 10px;
+    float: right;
+    font-style: italic;
+    background-color: #ebeef3;
+    margin-left: 10px;
+  }
+
+
+
+.parrafos{
+    color: #313336;
+    border-radius: 10px;
+    padding: 20px;
+}*/
+
+aside {
+    width: auto;
+    float: right;
+    font-style: italic;
+    background-color: #ebeef3;
+  }
+
+.boximagenes{
+    display: inline-flex; 
+}
+
+.textoimagen{
+    margin: 50px;
+}
+
+.ilustraciones{
+    margin: 50px;
+}
+/*---------------------------------------------------FOOTER----------------------------------------------------------------------------------*/
+footer{
+    background-color: #313336;
+}
+
+.decotitulofooter{
+    text-decoration: underline;
+}
+#titulofooter{
+    font-size: x-large;
+}
+
+.descripcion{
+    color: #E0E2DB;
+    padding-left: 20px;
+}
+
+.descripcionfooter{
+    font-size: medium;
+    margin-left: 15px;
+}
+
+.logomichcocina{
+    float: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: 200px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.copyright{
+    font-style: italic;
+    text-align: center;   
+}
+
+.botonfooter:link {
+    color: #E0E2DB;
+}
+
+.botonfooter:visited {
+    color: #E0E2DB;
+}
+
+.botonfooter:hover {
+    color: blue;
+}
+
+.botonfooter:active {
+    color: blue;
+} 
+
+.hr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
